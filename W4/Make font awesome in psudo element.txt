@@ -1,0 +1,11 @@
+to Make font Awesome icon by Useing psudo element  :
+ type  the foollwing codes  in psudo element style:
+
+
+.statistics button h6::before{
+   content:"\f102";
+   position: absolute;
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+
+}
